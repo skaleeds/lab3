@@ -16,26 +16,30 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
  * 2. Remove the margin in Firefox and Safari.
  */
 
+.agdasima-regular {
+  font-family: "Agdasima", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 button,
 input,
 optgroup,
 select,
 textarea {
-  font-family: sans-serif; /* 1 */
+  font-family: "Agdasmia", sans-serif; /* 1 */
   font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
   margin: 0; /* 2 */
 }
 
-/**
- * Show the overflow in IE.
- * 1. Show the overflow in Edge.
- */
 
-button,
-input { /* 1 */
-  overflow: visible;
+
+ button,
+ input {
+	 overflow: visible;
 }
+ 
 
 /**
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
@@ -43,7 +47,7 @@ input { /* 1 */
  */
 
 button,
-select { /* 1 */
+select {
   text-transform: none;
 }
 
@@ -54,10 +58,10 @@ select { /* 1 */
  */
 
 button,
-html [type="button"], /* 1 */
+html [type="button"], 
 [type="reset"],
 [type="submit"] {
-  -webkit-appearance: button; /* 2 */
+  -webkit-appearance: button;
 }
 
 /**
@@ -186,10 +190,17 @@ img, audio, video {
 
 /* ===== BASE STYLES ===== */
 
+
+
 /*
   Major Sixth Modular Scale:
   http://www.modularscale.com/?22&px&1.667&web&text
 */
+
+body{
+	font-family: 'Ag
+}
+
 
 html {
   font-size: 1.375em; /* 22px */
